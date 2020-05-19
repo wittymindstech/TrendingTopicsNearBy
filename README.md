@@ -1,21 +1,25 @@
-# TrendingTopicsNearBy
-Bot to find trending topics nearby
+# TrendingTopicsNearBy:
 
-# इस प्रोजेक्ट को क्लोन करें 
+Finding search trends based on Pincode or Area name. 
 
-git clone https://github.com/wittymindstech/TrendingTopicsNearBy.git
+If I input Pincode or area name
 
-अपने रेपो में एक ब्रांच बनाएं 
-कोड में बदलाव लाएं 
-फिर स्टेटस चेक करें
-# git status
-और अगर आपने कोई नयी फाइल बनाई है तो उसको ऐड करें
-# git add filename
+![](Images/Input.png)
 
-फिर कमिट करें 
+then I will get top trending topics.
 
-git commit -m "commit message" 
+![](Images/Output.png)
 
-और फिर code पुश करें 
+### How to run .py File:
 
-# git push
+#### Step 1
+**Install BeautifulSoup**
+```
+pip install beautifulsoup4
+```
+
+#### Step 2
+**Run NewsScrapy.py on one terminal**
+```
+python NewsScrapy.py
+```
